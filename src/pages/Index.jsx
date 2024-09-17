@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import FeaturedCollections from '../components/FeaturedCollections';
 import SpecialOffers from '../components/SpecialOffers';
+import VirtualTryOn from '../components/VirtualTryOn';
 import Footer from '../components/Footer';
 import ChatBot from '../components/ChatBot';
 
@@ -12,6 +13,7 @@ const Index = () => {
       <Hero />
       <About />
       <FeaturedCollections />
+      <VirtualTryOn />
       <SpecialOffers />
       <Footer />
       <ChatBot />
