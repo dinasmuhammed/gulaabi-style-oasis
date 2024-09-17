@@ -11,8 +11,11 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center font-['Playfair_Display']">
-          A Complete Fashion Store For Perfect Styling !! ❤️
+          Gulaabi
         </h1>
+        <p className="text-2xl md:text-3xl mb-6 text-center">
+          A Complete Fashion Store For Perfect Styling !! ❤️
+        </p>
         <Button className="bg-[#FF1493] hover:bg-[#FF69B4] text-white font-bold py-2 px-4 rounded">
           Shop Now
         </Button>

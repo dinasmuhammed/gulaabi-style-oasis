@@ -10,13 +10,16 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-2">Gulaabi</h3>
             <p>A Complete Fashion Store For Perfect Styling</p>
           </div>
-          <div className="flex space-x-4">
-            <a href="https://wa.me/+918921931202" className="hover:text-[#FFB6C1]">
+          <div className="flex flex-col items-center md:items-end">
+            <p className="mb-2">For Enquiries:</p>
+            <a href="https://wa.me/+918921931202" className="hover:text-[#FFB6C1] mb-2">
               WhatsApp: +918921931202
             </a>
-            <a href="#" className="hover:text-[#FFB6C1]"><Facebook /></a>
-            <a href="#" className="hover:text-[#FFB6C1]"><Instagram /></a>
-            <a href="#" className="hover:text-[#FFB6C1]"><Twitter /></a>
+            <div className="flex space-x-4">
+              <a href="#" className="hover:text-[#FFB6C1]"><Facebook /></a>
+              <a href="#" className="hover:text-[#FFB6C1]"><Instagram /></a>
+              <a href="#" className="hover:text-[#FFB6C1]"><Twitter /></a>
+            </div>
           </div>
         </div>
         <div className="mt-8 text-center">
