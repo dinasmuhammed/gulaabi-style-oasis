@@ -5,10 +5,10 @@ const FeaturedCollections = () => {
   const [selectedSize, setSelectedSize] = useState(null);
 
   const collections = [
-    { id: 1, name: 'Summer Breeze', image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
-    { id: 2, name: 'Autumn Charm', image: 'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
-    { id: 3, name: 'Winter Elegance', image: 'https://images.unsplash.com/photo-1548624149-f9b1859aa7d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
-    { id: 4, name: 'Spring Bloom', image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 1, name: 'Summer Breeze', image: 'https://images.unsplash.com/photo-1523359346063-d879354c0ea5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 2, name: 'Autumn Charm', image: 'https://images.unsplash.com/photo-1511108690759-009324a90311?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 3, name: 'Winter Elegance', image: 'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 4, name: 'Spring Bloom', image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
   ];
 
   const sizes = ['XS', 'S', 'M', 'L', 'XL'];
