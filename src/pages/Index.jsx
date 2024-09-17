@@ -4,6 +4,7 @@ import About from '../components/About';
 import FeaturedCollections from '../components/FeaturedCollections';
 import SpecialOffers from '../components/SpecialOffers';
 import Footer from '../components/Footer';
+import ChatBot from '../components/ChatBot';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <FeaturedCollections />
       <SpecialOffers />
       <Footer />
+      <ChatBot />
     </div>
   );
 };
