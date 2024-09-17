@@ -2,10 +2,10 @@ import React from 'react';
 
 const FeaturedCollections = () => {
   const collections = [
-    { id: 1, name: 'Summer Breeze', image: '/collection1.jpg' },
-    { id: 2, name: 'Autumn Charm', image: '/collection2.jpg' },
-    { id: 3, name: 'Winter Elegance', image: '/collection3.jpg' },
-    { id: 4, name: 'Spring Bloom', image: '/collection4.jpg' },
+    { id: 1, name: 'Summer Breeze', image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 2, name: 'Autumn Charm', image: 'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 3, name: 'Winter Elegance', image: 'https://images.unsplash.com/photo-1548624149-f9b1859aa7d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
+    { id: 4, name: 'Spring Bloom', image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80' },
   ];
 
   return (
